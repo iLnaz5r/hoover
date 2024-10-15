@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(129,109,178);
+    background: linear-gradient(90deg, rgba(129,109,178,1) 0%, rgba(79,85,139,1) 100%);
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 35px 30px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.boxes{
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+
+hr{
+    padding: 0 190px;
+    color: #e6e6e6;
+}
+
+button{
+    background: rgb(102,128,255);
+    background: linear-gradient(90deg, rgba(102,128,255,1) 0%, rgba(102,128,255,1) 100%);  
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+ .korob:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px  rgba(43, 0, 89, 0.738);
+  
+}
+
+.korob{
+    width: 80px;
+}
+
+
+.perv_tri{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.vtor_tri{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
